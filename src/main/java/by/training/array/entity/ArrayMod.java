@@ -7,6 +7,7 @@ public class ArrayMod {
     private double[] array;
 
     public ArrayMod() {
+        this.array = new double[]{};
     }
 
     public ArrayMod(double[] array) {
