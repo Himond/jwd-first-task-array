@@ -11,10 +11,7 @@ public final class ArrayService {
 
     static Logger logger = LogManager.getLogger();
 
-    private ArrayService() {
-    }
-
-    //поиск min\max значения массива
+      //поиск min\max значения массива
     public static double minValueArray(ArrayMod array){
         double min;
         if(array.getLength() > 0){
@@ -111,6 +108,9 @@ public final class ArrayService {
         }
         logger.info("modified array: " + Arrays.toString(changeArray));
         return new ArrayMod(changeArray);
+    }
+
+    private ArrayService() {
     }
 
 }

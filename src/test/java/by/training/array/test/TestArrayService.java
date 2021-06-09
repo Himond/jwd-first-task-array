@@ -90,4 +90,14 @@ public class TestArrayService {
         Assert.assertArrayEquals(expected.getArray(), actual.getArray(), 0.001);
 
     }
+
+    @Test
+    public void nullArrayTest() {
+
+        basicArray.setArray(new double[]{});
+        ArrayMod expected = new ArrayMod(new double[]{});
+        ArrayMod actual = ArrayService.changeNegValueToZeroArray(basicArray);
+        Assert.assertArrayEquals(expected.getArray(), actual.getArray(), 0.001);
+
+    }
 }

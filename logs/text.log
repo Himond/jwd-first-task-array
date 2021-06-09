@@ -1,5 +1,9 @@
-14:41:34.310 [main] INFO  by.training.array.service.ArrayService - average value: 2.0
-14:41:34.315 [main] INFO  by.training.array.service.ArrayService - sum of values: 12.0
-14:41:34.316 [main] INFO  by.training.array.service.ArrayService - modified array: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
-14:41:34.318 [main] INFO  by.training.array.service.ArrayService - count of positive values: 5
 14:41:34.319 [main] INFO  by.training.array.service.ArrayService - max value: 8.0
+14:46:01.675 [main] INFO  by.training.array.service.ArrayService - min value: -5.0
+14:46:01.678 [main] INFO  by.training.array.service.ArrayService - count of negative values: 4
+14:46:01.679 [main] INFO  by.training.array.service.ArrayService - average value: 2.0
+14:46:01.679 [main] INFO  by.training.array.service.ArrayService - sum of values: 12.0
+14:46:01.680 [main] INFO  by.training.array.service.ArrayService - modified array: []
+14:46:01.681 [main] INFO  by.training.array.service.ArrayService - modified array: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
+14:46:01.682 [main] INFO  by.training.array.service.ArrayService - count of positive values: 5
+
