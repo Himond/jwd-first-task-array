@@ -34,8 +34,8 @@ public class TestArrayService {
     @Test
     public void maxValueTest() {
 
-        basicArray.setArray(new double[]{3, 2, 8, 4, -5, 0});
-        double expected = 8.0;
+        basicArray.setArray(new double[]{3, 22, 8, 4, -5, 0});
+        double expected = 22.0;
         double actual = ArrayService.maxValueArray(basicArray);
         Assert.assertEquals(actual, expected, 0.001);
 

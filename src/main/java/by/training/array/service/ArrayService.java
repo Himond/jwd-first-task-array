@@ -3,8 +3,6 @@ package by.training.array.service;
 import by.training.array.entity.ArrayMod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public final class ArrayService {
