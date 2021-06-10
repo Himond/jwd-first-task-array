@@ -80,4 +80,6 @@ public final class ArraySort {
         return right;
     }
 
+    private ArraySort() {
+    }
 }
