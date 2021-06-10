@@ -1,7 +1,7 @@
 package by.training.array.test;
 
 import by.training.array.entity.ArrayMod;
-import by.training.array.service.ArrayService;
+import by.training.array.service.ArrayServiceImpl;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,6 +10,7 @@ import org.junit.Test;
 public class TestArrayService {
 
     private ArrayMod basicArray;
+    private ArrayServiceImpl service = new ArrayServiceImpl();
 
     @Before
     public void initTest() {
@@ -26,7 +27,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{3, 2, 8, 4, -5, 0});
         double expected = -5.0;
-        double actual = ArrayService.minValueArray(basicArray);
+        double actual = service.minValueArray(basicArray);
         Assert.assertEquals(actual, expected, 0.001);
 
     }
@@ -36,7 +37,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{3, 22, 8, 4, -5, 0});
         double expected = 22.0;
-        double actual = ArrayService.maxValueArray(basicArray);
+        double actual = service.maxValueArray(basicArray);
         Assert.assertEquals(actual, expected, 0.001);
 
     }
@@ -46,7 +47,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{3, 2, 8, 4, -5, 0});
         double expected = 2.0;
-        double actual = ArrayService.averageValueArray(basicArray);
+        double actual = service.averageValueArray(basicArray);
         Assert.assertEquals(actual, expected, 0.001);
 
     }
@@ -56,7 +57,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{3, 2, 8, 4, -5, 0});
         double expected = 12.0;
-        double actual = ArrayService.sumAllValueArray(basicArray);
+        double actual = service.sumAllValueArray(basicArray);
         Assert.assertEquals(actual, expected, 0.001);
 
     }
@@ -66,7 +67,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{3, 2, 8, 4, -5, 0});
         int expected = 5;
-        int actual = ArrayService.countPositiveValueArray(basicArray);
+        int actual = service.countPositiveValueArray(basicArray);
         Assert.assertEquals(actual, expected);
 
     }
@@ -76,7 +77,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{-2, -3, 8, -8, -5, 0});
         int expected = 4;
-        int actual = ArrayService.countNegativeValueArray(basicArray);
+        int actual = service.countNegativeValueArray(basicArray);
         Assert.assertEquals(actual, expected);
 
     }
@@ -86,7 +87,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{-2, -3, 8, -8, -5, 0});
         ArrayMod expected = new ArrayMod(new double[]{0, 0, 8, 0, 0, 0});
-        ArrayMod actual = ArrayService.changeNegValueToZeroArray(basicArray);
+        ArrayMod actual = service.changeNegValueToZeroArray(basicArray);
         Assert.assertArrayEquals(expected.getArray(), actual.getArray(), 0.001);
 
     }
@@ -96,7 +97,7 @@ public class TestArrayService {
 
         basicArray.setArray(new double[]{});
         ArrayMod expected = new ArrayMod(new double[]{});
-        ArrayMod actual = ArrayService.changeNegValueToZeroArray(basicArray);
+        ArrayMod actual = service.changeNegValueToZeroArray(basicArray);
         Assert.assertArrayEquals(expected.getArray(), actual.getArray(), 0.001);
 
     }
