@@ -1,4 +1,4 @@
-package by.training.array.service;
+package by.training.array.util;
 
 import by.training.array.entity.ArrayMod;
 import by.training.array.validator.ArrayValidator;
