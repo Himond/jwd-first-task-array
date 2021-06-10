@@ -1,4 +1,6 @@
-package by.training.array.dao;
+package by.training.array.dao.impl;
+
+import by.training.array.dao.DaoService;
 
 import java.io.*;
 import java.util.ArrayList;

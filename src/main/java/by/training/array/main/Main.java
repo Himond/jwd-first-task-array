@@ -1,7 +1,7 @@
 package by.training.array.main;
 
 import by.training.array.dao.DaoService;
-import by.training.array.dao.DaoServiceImpl;
+import by.training.array.dao.impl.DaoServiceImpl;
 import by.training.array.entity.ArrayMod;
 import by.training.array.util.ArrayBuilder;
 import by.training.array.service.impl.ArrayServiceImpl;
