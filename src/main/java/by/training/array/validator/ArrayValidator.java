@@ -1,4 +1,4 @@
-package by.training.array.validstor;
+package by.training.array.validator;
 
 import by.training.array.entity.ArrayMod;
 
