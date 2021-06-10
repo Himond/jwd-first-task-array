@@ -23,3 +23,21 @@
 12:26:15.520 [main] INFO  by.training.array.service.ArrayServiceImpl - modified array: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
 12:26:15.520 [main] INFO  by.training.array.service.ArrayServiceImpl - count of positive values: 5
 12:26:15.521 [main] INFO  by.training.array.service.ArrayServiceImpl - max value: 22.0
+14:56:29.989 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -10.0, -2.0, 1.0, 3.0, 6.0, 9.0, 25.0]
+14:56:29.992 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: 2.5
+14:56:29.992 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, 0.0, 2.0, 3.0, 10.0, 12.0]
+14:56:29.992 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: 0.75
+14:56:29.992 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, -3.0, -3.0, -3.0, -3.0, 0.0]
+14:56:29.992 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: -4.125
+14:57:16.392 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -10.0, -2.0, 1.0, 3.0, 6.0, 9.0, 25.0]
+14:57:16.395 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: 2.5
+14:57:16.396 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, 0.0, 2.0, 3.0, 10.0, 12.0]
+14:57:16.396 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: 0.75
+14:57:16.396 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, -3.0, -3.0, -3.0, -3.0, 0.0]
+14:57:16.396 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: -4.125
+14:58:25.644 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -10.0, -2.0, 1.0, 3.0, 6.0, 9.0, 25.0]
+14:58:25.647 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: 2.5
+14:58:25.647 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, 0.0, 2.0, 3.0, 10.0, 12.0]
+14:58:25.647 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: 0.75
+14:58:25.647 [main] INFO  by.training.array.service.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, -3.0, -3.0, -3.0, -3.0, 0.0]
+14:58:25.647 [main] INFO  by.training.array.service.ArrayServiceImpl - average value: -4.125
