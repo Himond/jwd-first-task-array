@@ -1,12 +1,13 @@
-package by.training.array.service;
+package by.training.array.service.impl;
 
 import by.training.array.entity.ArrayMod;
+import by.training.array.service.ArraySort;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 
-public class ArraySortImpl implements ArraySort{
+public class ArraySortImpl implements ArraySort {
 
     static Logger logger = LogManager.getLogger();
 

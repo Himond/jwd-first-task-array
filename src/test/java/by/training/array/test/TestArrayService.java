@@ -1,7 +1,7 @@
 package by.training.array.test;
 
 import by.training.array.entity.ArrayMod;
-import by.training.array.service.ArrayServiceImpl;
+import by.training.array.service.impl.ArrayServiceImpl;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

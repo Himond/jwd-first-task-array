@@ -4,8 +4,8 @@ import by.training.array.dao.DaoService;
 import by.training.array.dao.DaoServiceImpl;
 import by.training.array.entity.ArrayMod;
 import by.training.array.service.ArrayBuilder;
-import by.training.array.service.ArrayServiceImpl;
-import by.training.array.service.ArraySortImpl;
+import by.training.array.service.impl.ArrayServiceImpl;
+import by.training.array.service.impl.ArraySortImpl;
 
 import java.io.IOException;
 import java.util.List;
