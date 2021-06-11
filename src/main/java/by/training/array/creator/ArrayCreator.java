@@ -1,4 +1,4 @@
-package by.training.array.util;
+package by.training.array.creator;
 
 import by.training.array.entity.ArrayMod;
 import by.training.array.validator.ArrayValidator;
@@ -10,12 +10,12 @@ public final class ArrayCreator {
 
     private static final String SPLIT_REGEX = "(\\s\\-\\s)|(\\,\\s)|(\\s)";
 
-    public static List<ArrayMod> createArrayList(List<String> list){
+    public static List<ArrayMod> createArrayList(List<String> stringArray){
 
         List<ArrayMod> arrayList = new ArrayList<>();
         double[] newArray;
 
-        for (String array : list) {
+        for (String array : stringArray) {
             if (ArrayValidator.correctValueArray(array)) {
                 String[] line = array.split(SPLIT_REGEX);
                 newArray = new double[line.length];

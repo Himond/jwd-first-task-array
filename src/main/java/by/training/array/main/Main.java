@@ -3,7 +3,7 @@ package by.training.array.main;
 import by.training.array.entity.ArrayMod;
 import by.training.array.exception.ArrayException;
 import by.training.array.reader.impl.ReaderServiceImpl;
-import by.training.array.util.ArrayCreator;
+import by.training.array.creator.ArrayCreator;
 
 import java.io.IOException;
 import java.util.List;
