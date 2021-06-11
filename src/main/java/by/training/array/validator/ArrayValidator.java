@@ -10,4 +10,6 @@ public class ArrayValidator {
         return valid;
     }
 
+    private ArrayValidator() {
+    }
 }

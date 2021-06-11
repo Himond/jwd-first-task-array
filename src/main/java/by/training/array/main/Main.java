@@ -1,5 +1,6 @@
 package by.training.array.main;
 
+import by.training.array.creator.ArrayCreatorStream;
 import by.training.array.entity.ArrayMod;
 import by.training.array.exception.ArrayException;
 import by.training.array.reader.impl.ReaderServiceImpl;
@@ -18,5 +19,6 @@ public class Main {
         List<ArrayMod> arrayModList = ArrayCreator.createArrayList(stringArrayList);
         System.out.println(arrayModList);
 
+        System.out.println(ArrayCreatorStream.createArrayList("src\\main\\resources\\arrays.txt"));
     }
 }

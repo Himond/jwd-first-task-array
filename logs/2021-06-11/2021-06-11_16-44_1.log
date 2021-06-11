@@ -1,0 +1,83 @@
+14:49:53.609 [main] INFO  by.training.array.service.ArrayService - min value: -5.0
+14:49:53.613 [main] INFO  by.training.array.service.ArrayService - count of negative values: 4
+14:49:53.615 [main] INFO  by.training.array.service.ArrayService - average value: 2.0
+14:49:53.615 [main] INFO  by.training.array.service.ArrayService - sum of values: 12.0
+14:49:53.616 [main] INFO  by.training.array.service.ArrayService - modified array: []
+14:49:53.618 [main] INFO  by.training.array.service.ArrayService - modified array: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
+14:49:53.619 [main] INFO  by.training.array.service.ArrayService - count of positive values: 5
+14:49:53.620 [main] INFO  by.training.array.service.ArrayService - max value: 8.0
+09:56:17.335 [main] INFO  by.training.array.service.ArraySort - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+09:56:17.339 [main] INFO  by.training.array.service.ArraySort - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+09:56:17.340 [main] INFO  by.training.array.service.ArraySort - сортировка обменами: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:47:25.940 [main] INFO  by.training.array.service.ArraySort - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+11:47:25.945 [main] INFO  by.training.array.service.ArraySort - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+11:47:25.946 [main] INFO  by.training.array.service.ArraySort - сортировка обменами: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+12:26:03.957 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+12:26:03.962 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+12:26:03.962 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка обменами: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+12:26:15.513 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - min value: -5.0
+12:26:15.517 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - count of negative values: 4
+12:26:15.517 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 2.0
+12:26:15.518 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - sum of values: 12.0
+12:26:15.518 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - modified array: []
+12:26:15.520 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - modified array: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
+12:26:15.520 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - count of positive values: 5
+12:26:15.521 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - max value: 22.0
+14:56:29.989 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -10.0, -2.0, 1.0, 3.0, 6.0, 9.0, 25.0]
+14:56:29.992 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 2.5
+14:56:29.992 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, 0.0, 2.0, 3.0, 10.0, 12.0]
+14:56:29.992 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 0.75
+14:56:29.992 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, -3.0, -3.0, -3.0, -3.0, 0.0]
+14:56:29.992 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: -4.125
+14:57:16.392 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -10.0, -2.0, 1.0, 3.0, 6.0, 9.0, 25.0]
+14:57:16.395 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 2.5
+14:57:16.396 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, 0.0, 2.0, 3.0, 10.0, 12.0]
+14:57:16.396 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 0.75
+14:57:16.396 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, -3.0, -3.0, -3.0, -3.0, 0.0]
+14:57:16.396 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: -4.125
+14:58:25.644 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -10.0, -2.0, 1.0, 3.0, 6.0, 9.0, 25.0]
+14:58:25.647 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 2.5
+14:58:25.647 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, 0.0, 2.0, 3.0, 10.0, 12.0]
+14:58:25.647 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 0.75
+14:58:25.647 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-12.0, -6.0, -3.0, -3.0, -3.0, -3.0, -3.0, 0.0]
+14:58:25.647 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: -4.125
+10:18:28.324 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - min value: -5.0
+10:18:28.329 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - count of negative values: 4
+10:18:28.329 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 2.0
+10:18:28.329 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - sum of values: 12.0
+10:18:28.331 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - modified array: []
+10:18:28.332 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - modified array: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
+10:18:28.334 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - count of positive values: 5
+10:18:28.335 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - max value: 22.0
+10:18:35.852 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+10:18:35.856 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+10:18:35.857 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка обменами: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+10:24:39.104 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+10:24:39.109 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+10:24:39.110 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка обменами: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:15:36.730 [main] ERROR by.training.array.reader.impl.ReaderServiceImpl - File not found
+16:13:51.929 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - count of negative values: 4
+16:13:51.934 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - average value: 2.0
+16:13:51.934 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - sum of values: 12.0
+16:13:51.935 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - modified array: []
+16:13:51.936 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - modified array: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
+16:13:51.937 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - count of positive values: 5
+16:13:51.938 [main] INFO  by.training.array.service.impl.ArrayServiceImpl - max value: 22.0
+16:27:18.956 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value: 2.0
+16:28:45.281 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value: 2.0
+16:28:45.285 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value: 12.0
+16:29:39.608 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value: 2.0
+16:29:39.612 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value: 12.0
+16:38:10.578 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value stream: 2.0
+16:38:10.582 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value stream: 12.0
+16:38:10.593 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of positive values stream: 5
+16:39:02.644 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of negative values stream: 4
+16:39:02.650 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value stream: 2.0
+16:39:02.651 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value stream: 12.0
+16:39:02.657 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of positive values stream: 5
+16:43:10.836 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of negative values stream: 4
+16:43:10.841 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value stream: 2.0
+16:43:10.843 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value stream: 12.0
+16:43:10.852 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of positive values stream: 5
+16:44:05.990 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of negative values stream: 4
+16:44:05.997 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value stream: 2.0
