@@ -11,7 +11,7 @@ public class ArrayMod {
     }
 
     public ArrayMod(double[] array) {
-        this.array = array;
+        this.array = array.clone();
     }
 
     public double[] getArray() {
@@ -19,11 +19,7 @@ public class ArrayMod {
     }
 
     public void setArray(double[] array) {
-        this.array = array;
-    }
-
-    public int getLength() {
-        return this.array.length;
+        this.array = array.clone();
     }
 
     @Override

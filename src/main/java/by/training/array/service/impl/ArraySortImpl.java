@@ -18,8 +18,8 @@ public class ArraySortImpl implements ArraySort {
     @Override
     public void exchangesArraySort(ArrayMod array){
         int count = 0;
-        for (int i = 0; i < array.getLength(); i++) {
-            for (int j = 0; j < array.getLength() - 1; j++) {
+        for (int i = 0; i < array.getArray().length; i++) {
+            for (int j = 0; j < array.getArray().length - 1; j++) {
                 if(array.getArray()[j] > array.getArray()[j + 1]){
                     double num = array.getArray()[j];
                     array.getArray()[j] = array.getArray()[j + 1];
@@ -34,7 +34,7 @@ public class ArraySortImpl implements ArraySort {
     //сортировка вставками
     @Override
     public void insertArraySort(ArrayMod array){
-        for (int i = 0; i < array.getLength() - 1; i++) {
+        for (int i = 0; i < array.getArray().length - 1; i++) {
             double key = array.getArray()[i + 1];
             int indKey = binSearch(array, key, i + 1);
             if(indKey <= i){
@@ -52,7 +52,7 @@ public class ArraySortImpl implements ArraySort {
     @Override
     public void shellArraySort(ArrayMod array){
         int i = 0;
-        while (i < array.getLength() - 1){
+        while (i < array.getArray().length - 1){
             if(array.getArray()[i] > array.getArray()[i + 1]){
                 double key = array.getArray()[i];
                 array.getArray()[i] = array.getArray()[i + 1];

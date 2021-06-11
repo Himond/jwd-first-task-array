@@ -13,11 +13,11 @@ public class ArrayServiceImpl implements ArrayService {
     public ArrayServiceImpl() {
     }
 
-      //поиск min\max значения массива
+    //поиск min\max значения массива
     @Override
     public double minValueArray(ArrayMod array){
         double min;
-        if(array.getLength() > 0){
+        if(array.getArray().length > 0){
             min = array.getArray()[0];
             for (double value : array.getArray()) {
                 if (value < min){
@@ -33,7 +33,7 @@ public class ArrayServiceImpl implements ArrayService {
     @Override
     public double maxValueArray(ArrayMod array){
         double max;
-        if(array.getLength() > 0){
+        if(array.getArray().length > 0){
             max = array.getArray()[0];
             for (double value : array.getArray()) {
                 if (value > max){
@@ -51,11 +51,11 @@ public class ArrayServiceImpl implements ArrayService {
     @Override
     public double averageValueArray(ArrayMod array){
         double average = 0.0;
-        if(array.getLength() > 0){
+        if(array.getArray().length > 0){
             for (double value : array.getArray()) {
                 average += value;
             }
-            average = average/array.getLength();
+            average = average/array.getArray().length;
         }
         logger.info("average value: " + average);
         return average;
@@ -65,7 +65,7 @@ public class ArrayServiceImpl implements ArrayService {
     @Override
     public double sumAllValueArray(ArrayMod array){
         double sum = 0.0;
-        if(array.getLength() > 0){
+        if(array.getArray().length > 0){
             for (double value : array.getArray()) {
                 sum += value;
             }
@@ -78,7 +78,7 @@ public class ArrayServiceImpl implements ArrayService {
     @Override
     public int countPositiveValueArray(ArrayMod array){
         int count = 0;
-        if(array.getLength() > 0){
+        if(array.getArray().length > 0){
             for (double value : array.getArray()) {
                 if(value >= 0){
                     count++;
@@ -91,7 +91,7 @@ public class ArrayServiceImpl implements ArrayService {
     @Override
     public int countNegativeValueArray(ArrayMod array){
         int count = 0;
-        if(array.getLength() > 0){
+        if(array.getArray().length > 0){
             for (double value : array.getArray()) {
                 if(value < 0){
                     count++;
@@ -105,8 +105,8 @@ public class ArrayServiceImpl implements ArrayService {
     //замену элементов массива по условию
     @Override
     public ArrayMod changeNegValueToZeroArray(ArrayMod array){
-        double[] changeArray = new double[array.getLength()];
-        for (int i = 0; i < array.getLength(); i++){
+        double[] changeArray = new double[array.getArray().length];
+        for (int i = 0; i < array.getArray().length; i++){
             if(array.getArray()[i] >= 0){
                 changeArray[i] = array.getArray()[i];
             }else {
