@@ -1,8 +1,6 @@
 package by.training.array.test;
 
 import by.training.array.entity.ArrayMod;
-import by.training.array.service.impl.ArrayServiceStreamImpl;
-import by.training.array.service.impl.ArraySortImpl;
 import by.training.array.service.impl.ArraySortStreamImpl;
 import org.junit.After;
 import org.junit.Assert;
