@@ -20,5 +20,6 @@ public class Main {
         System.out.println(arrayModList);
 
         System.out.println(ArrayCreatorStream.createArrayList("src\\main\\resources\\arrays.txt"));
+
     }
 }
