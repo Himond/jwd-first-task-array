@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws ArrayException, IOException {
+    public static void main(String[] args) throws ArrayException{
 
         ReaderServiceImpl reader = new ReaderServiceImpl();
         List<String> stringArrayList = reader.read("src\\main\\resources\\arrays.txt");

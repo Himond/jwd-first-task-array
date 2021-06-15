@@ -20,7 +20,10 @@ public class ArrayCreatorStream {
     private static final String SPLIT_REGEX = "(\\s\\-\\s)|(\\,\\s)|(\\s)";
     static Logger logger = LogManager.getLogger();
 
-    public static List<ArrayMod> createArrayList(String path) throws ArrayException, IOException {
+    private ArrayCreatorStream() {
+    }
+
+    public static List<ArrayMod> createArrayList(String path) throws ArrayException{
         List<ArrayMod> arrayModList;
 
         try(BufferedReader br = new BufferedReader(new FileReader(path))) {
@@ -36,12 +39,12 @@ public class ArrayCreatorStream {
 
         }catch (FileNotFoundException ex){
             logger.error("File not found stream: " + path);
-            throw new ArrayException(ex.getMessage());
+            throw new ArrayException();
+        }catch (IOException e){
+            throw new ArrayException();
         }
 
         return arrayModList;
     }
 
-    private ArrayCreatorStream() {
-    }
 }
