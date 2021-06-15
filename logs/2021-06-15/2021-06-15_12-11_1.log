@@ -1,0 +1,60 @@
+16:44:05.999 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value stream: 12.0
+16:44:06.013 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of positive values stream: 5
+16:50:56.341 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of negative values stream: 4
+16:50:56.346 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value stream: 2.0
+16:50:56.347 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value stream: 12.0
+16:50:56.352 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of positive values stream: 5
+16:52:59.603 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - min value stream: -5.0
+16:52:59.608 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of negative values stream: 4
+16:52:59.610 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value stream: 2.0
+16:52:59.611 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value stream: 12.0
+16:52:59.614 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - modified array stream: []
+16:52:59.621 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - modified array stream: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
+16:52:59.623 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of positive values stream: 5
+16:52:59.625 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - max value stream: 22.0
+16:55:42.836 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - min value stream: -5.0
+16:55:42.841 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of negative values stream: 4
+16:55:42.843 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - average value stream: 2.0
+16:55:42.846 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - sum value stream: 12.0
+16:55:42.849 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - modified array stream: []
+16:55:42.851 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - modified array stream: [0.0, 0.0, 8.0, 0.0, 0.0, 0.0]
+16:55:42.853 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - count of positive values stream: 5
+16:55:42.854 [main] INFO  by.training.array.service.impl.ArrayServiceStreamImpl - max value stream: 22.0
+11:35:14.469 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+11:35:14.475 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+11:35:14.475 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка обменами: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:43:16.284 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+11:43:16.289 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+11:43:16.289 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка обменами: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:43:30.084 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка вставками: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+11:43:30.088 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка Шелла: [-43.0, -8.0, -5.0, 0.0, 0.0, 6.0, 6.0, 7.0, 8.0, 8.0, 13.0, 22.0, 34.0, 34.0, 76.0]
+11:43:30.089 [main] INFO  by.training.array.service.impl.ArraySortImpl - сортировка пузырьком: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:46:10.674 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:47:27.289 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:48:43.094 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:49:00.014 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:49:20.207 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:49:43.249 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:51:23.805 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:52:03.996 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:52:38.921 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:53:13.286 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:53:56.938 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:54:37.184 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:54:44.498 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:55:05.644 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:55:15.124 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:55:46.613 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:56:22.139 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:56:41.770 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:59:37.926 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка вставками stream: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+11:59:37.938 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+11:59:45.779 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка вставками stream: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+11:59:45.790 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+12:00:32.729 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка вставками stream: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+12:00:32.741 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+12:02:35.957 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка вставками stream: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+12:02:35.972 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+12:11:31.313 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка вставками stream: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
+12:11:31.325 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка пузырьком stream: [-12.0, -10.0, -10.0, -8.0, -3.0, -1.0, 0.0, 0.0, 2.0, 3.0, 7.0, 9.0, 12.0, 34.0]
+12:11:56.554 [main] INFO  by.training.array.service.impl.ArraySortStreamImpl - сортировка вставками stream: [-43.0, -34.0, -8.0, 0.0, 5.0, 6.0, 6.0, 8.0, 9.0, 12.0, 13.0, 17.0, 22.0, 28.0, 54.0]
