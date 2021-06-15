@@ -23,11 +23,11 @@ public class TestArraySort {
     }
 
     @Test
-    public void exchangesSortTest() {
+    public void bubbleSortTest() {
 
         basicArray.setArray(new double[]{-10, 2, 0, 34, -12, 3, 7, -8, -3, 0, 9, -1, -10, 12});
         double[] expected = {-12, -10, -10, -8, -3, -1, 0, 0, 2, 3, 7, 9, 12, 34};
-        sort.exchangesArraySort(basicArray);
+        sort.bubbleArraySort(basicArray);
         Assert.assertArrayEquals(expected, basicArray.getArray(), 0.001);
 
     }

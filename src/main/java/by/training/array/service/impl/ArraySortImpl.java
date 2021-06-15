@@ -14,21 +14,23 @@ public class ArraySortImpl implements ArraySort {
     public ArraySortImpl() {
     }
 
-    //сортировка обменами
+    //сортировка пузырьком
     @Override
-    public void exchangesArraySort(ArrayMod array){
-        int count = 0;
-        for (int i = 0; i < array.getArray().length; i++) {
-            for (int j = 0; j < array.getArray().length - 1; j++) {
-                if(array.getArray()[j] > array.getArray()[j + 1]){
-                    double num = array.getArray()[j];
-                    array.getArray()[j] = array.getArray()[j + 1];
-                    array.getArray()[j + 1] = num;
-                    count++;
+    public void bubbleArraySort(ArrayMod array){
+        boolean sorted = false;
+        double temp;
+        while(!sorted) {
+            sorted = true;
+            for (int i = 0; i < array.getArray().length - 1; i++) {
+                if (array.getArray()[i] > array.getArray()[i+1]) {
+                    temp = array.getArray()[i];
+                    array.getArray()[i] = array.getArray()[i+1];
+                    array.getArray()[i+1] = temp;
+                    sorted = false;
                 }
             }
         }
-        logger.info("сортировка обменами: " + Arrays.toString(array.getArray()));
+        logger.info("сортировка пузырьком: " + Arrays.toString(array.getArray()));
     }
 
     //сортировка вставками
@@ -70,7 +72,7 @@ public class ArraySortImpl implements ArraySort {
 
     //метод помещающий очередной элемента в отсортированную часть массива при
     //помощи двоичного поиска
-    private int binSearch(ArrayMod array, double key, int len){
+    public static int binSearch(ArrayMod array, double key, int len){
         int left = -1;
         int right = len;
         while (left < right - 1){

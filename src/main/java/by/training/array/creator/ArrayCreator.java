@@ -10,6 +10,9 @@ public final class ArrayCreator {
 
     private static final String SPLIT_REGEX = "(\\s\\-\\s)|(\\,\\s)|(\\s)";
 
+    private ArrayCreator() {
+    }
+
     public static List<ArrayMod> createArrayList(List<String> stringArray){
 
         List<ArrayMod> arrayList = new ArrayList<>();
@@ -28,7 +31,5 @@ public final class ArrayCreator {
         return arrayList;
     }
 
-    private ArrayCreator() {
-    }
 
 }

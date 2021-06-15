@@ -18,7 +18,7 @@ public class ReaderServiceImpl implements ReaderService {
     static Logger logger = LogManager.getLogger();
 
     @Override
-    public List<String> read(String path) throws ArrayException, IOException {
+    public List<String> read(String path) throws ArrayException {
 
         List<String> stringArrayList = new ArrayList<>();
 
@@ -30,7 +30,9 @@ public class ReaderServiceImpl implements ReaderService {
 
         }catch (FileNotFoundException ex){
             logger.error("File not found: " + path);
-            throw new ArrayException(ex.getMessage());
+            throw new ArrayException();
+        }catch (IOException e){
+            throw new ArrayException();
         }
 
         return stringArrayList;

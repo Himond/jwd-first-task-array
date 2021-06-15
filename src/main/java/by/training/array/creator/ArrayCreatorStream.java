@@ -29,7 +29,7 @@ public class ArrayCreatorStream {
                     .filter(x -> x.matches(CORRECT_ARRAY_REGEX))
                     .map(x -> x.split(SPLIT_REGEX))
                     .map(x -> (Arrays.stream(x)
-                            .mapToDouble(y -> Integer.parseInt(y))
+                            .mapToDouble(Double::parseDouble)
                             .toArray()))
                     .map(ArrayMod::new)
                     .collect(Collectors.toList());

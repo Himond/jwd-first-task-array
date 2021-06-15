@@ -4,7 +4,7 @@ import by.training.array.entity.ArrayMod;
 
 public interface ArraySort {
 
-     void exchangesArraySort(ArrayMod array);
+     void bubbleArraySort(ArrayMod array);
      void insertArraySort(ArrayMod array);
      void shellArraySort(ArrayMod array);
 
