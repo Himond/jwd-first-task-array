@@ -14,7 +14,6 @@ public class ArraySortImpl implements ArraySort {
     public ArraySortImpl() {
     }
 
-    //сортировка пузырьком
     @Override
     public void bubbleArraySort(ArrayMod array){
         boolean sorted = false;
@@ -30,10 +29,9 @@ public class ArraySortImpl implements ArraySort {
                 }
             }
         }
-        logger.info("сортировка пузырьком: " + Arrays.toString(array.getArray()));
+        logger.info("bubble sort: " + Arrays.toString(array.getArray()));
     }
 
-    //сортировка вставками
     @Override
     public void insertArraySort(ArrayMod array){
         for (int i = 0; i < array.getArray().length - 1; i++) {
@@ -47,10 +45,9 @@ public class ArraySortImpl implements ArraySort {
                 }
                 array.getArray()[indKey] = key;}
         }
-        logger.info("сортировка вставками: " + Arrays.toString(array.getArray()));
+        logger.info("insert sort: " + Arrays.toString(array.getArray()));
     }
 
-    //сортировка Шелла
     @Override
     public void shellArraySort(ArrayMod array){
         int i = 0;
@@ -66,12 +63,9 @@ public class ArraySortImpl implements ArraySort {
                 i++;
             }
         }
-        logger.info("сортировка Шелла: " + Arrays.toString(array.getArray()));
+        logger.info("Shell sort: " + Arrays.toString(array.getArray()));
     }
 
-
-    //метод помещающий очередной элемента в отсортированную часть массива при
-    //помощи двоичного поиска
     public static int binSearch(ArrayMod array, double key, int len){
         int left = -1;
         int right = len;

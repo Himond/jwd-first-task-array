@@ -38,10 +38,10 @@ public class ArrayCreatorStream {
                     .collect(Collectors.toList());
 
         }catch (FileNotFoundException ex){
-            logger.error("File not found stream: " + path);
-            throw new ArrayException();
-        }catch (IOException e){
-            throw new ArrayException();
+            logger.error("File not found stream: " + ex);
+            throw new ArrayException(ex);
+        }catch (IOException ex){
+            throw new ArrayException(ex);
         }
 
         return arrayModList;

@@ -27,7 +27,7 @@ public class ArraySortStreamImpl implements ArraySort {
                     }
                 });
 
-        logger.info("сортировка пузырьком stream: " + Arrays.toString(array.getArray()));
+        logger.info("bubble sort stream: " + Arrays.toString(array.getArray()));
 
     }
 
@@ -51,7 +51,7 @@ public class ArraySortStreamImpl implements ArraySort {
                     }
                 });
 
-        logger.info("сортировка вставками stream: " + Arrays.toString(array.getArray()));
+        logger.info("insert sort stream: " + Arrays.toString(array.getArray()));
     }
 
     @Override
@@ -60,7 +60,7 @@ public class ArraySortStreamImpl implements ArraySort {
         double[] sort = Arrays.stream(array.getArray()).sorted().toArray();
         array.setArray(sort);
 
-        logger.info("сортировка Шелла stream: " + Arrays.toString(array.getArray()));
+        logger.info("Shell sort stream: " + Arrays.toString(array.getArray()));
 
     }
 

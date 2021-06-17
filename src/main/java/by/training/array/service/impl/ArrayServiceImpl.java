@@ -13,7 +13,6 @@ public class ArrayServiceImpl implements ArrayService {
     public ArrayServiceImpl() {
     }
 
-    //поиск min\max значения массива
     @Override
     public double minValueArray(ArrayMod array){
         double min;
@@ -47,7 +46,6 @@ public class ArrayServiceImpl implements ArrayService {
         return max;
     }
 
-    //определение среднего значения элементов массива
     @Override
     public double averageValueArray(ArrayMod array){
         double average = 0.0;
@@ -61,7 +59,6 @@ public class ArrayServiceImpl implements ArrayService {
         return average;
     }
 
-    //определение суммы элементов массива
     @Override
     public double sumAllValueArray(ArrayMod array){
         double sum = 0.0;
@@ -74,7 +71,6 @@ public class ArrayServiceImpl implements ArrayService {
         return sum;
     }
 
-    //определение числа положительных\отрицательных элементов массива
     @Override
     public int countPositiveValueArray(ArrayMod array){
         int count = 0;
@@ -88,6 +84,7 @@ public class ArrayServiceImpl implements ArrayService {
         logger.info("count of positive values: " + count);
         return count;
     }
+
     @Override
     public int countNegativeValueArray(ArrayMod array){
         int count = 0;
@@ -102,7 +99,6 @@ public class ArrayServiceImpl implements ArrayService {
         return count;
     }
 
-    //замену элементов массива по условию
     @Override
     public ArrayMod changeNegValueToZeroArray(ArrayMod array){
         double[] changeArray = new double[array.getArray().length];

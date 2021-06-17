@@ -29,10 +29,10 @@ public class ReaderServiceImpl implements ReaderService {
             }
 
         }catch (FileNotFoundException ex){
-            logger.error("File not found: " + path);
-            throw new ArrayException();
-        }catch (IOException e){
-            throw new ArrayException();
+            logger.error("File not found: " + ex);
+            throw new ArrayException(ex);
+        }catch (IOException ex){
+            throw new ArrayException(ex);
         }
 
         return stringArrayList;
