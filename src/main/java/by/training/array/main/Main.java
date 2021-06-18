@@ -6,7 +6,6 @@ import by.training.array.exception.ArrayException;
 import by.training.array.reader.impl.ReaderServiceImpl;
 import by.training.array.creator.ArrayCreator;
 
-import java.io.IOException;
 import java.util.List;
 
 public class Main {
